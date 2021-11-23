@@ -7,6 +7,8 @@ public class cubemovement : MonoBehaviour
     public GameObject ball;
     public int delay = 50;
     private List<float> xpositions;
+    public float minX;
+    public float maxX;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,6 @@ public class cubemovement : MonoBehaviour
     {
         transform.position = new Vector3(xpositions[0], transform.position.y, transform.position.z);
         xpositions.RemoveAt(0);
-        xpositions.Add(ball.transform.position.x);
+        xpositions.Add(Mathf.Clamp(ball.transform.position.x, minX, maxX));
     }
 }

@@ -7970,6 +7970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 617617195}
   delay: 100
+  minX: -2.64
+  maxX: 1.14
 --- !u!65 &717301396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8040,7 +8042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717301394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46, y: 0.52, z: -9.72}
+  m_LocalPosition: {x: -0.6, y: 0.52, z: -9.72}
   m_LocalScale: {x: 1.5, y: 1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8160,6 +8162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 617617195}
   delay: 100
+  minX: -2.66
+  maxX: 1.1
 --- !u!65 &843133814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8230,7 +8234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843133812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.69, y: 0.49, z: 9.55}
+  m_LocalPosition: {x: -0.7, y: 0.49, z: 9.55}
   m_LocalScale: {x: 1.5, y: 1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
