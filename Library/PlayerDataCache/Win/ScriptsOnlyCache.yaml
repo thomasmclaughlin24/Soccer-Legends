@@ -10,9 +10,13 @@ ScriptsOnlyBuild:
     - ScoreKeeper
     - animateplayer
     - cubemovement
+    - exitgame
     - finalscore
     - goaldetector
     - menucontrol
+    - openoptions
+    - resetgame
+    - resetpositions
     - scoretext
     - switchscene
     - teamwon
@@ -77,19 +81,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,13 +144,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,7 +207,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11726}
+    - Class: 114
       Script: {instanceID: 11752}
+    - Class: 114
+      Script: {instanceID: 11980}
     - Class: 114
       Script: {instanceID: 12042}
     - Class: 114
@@ -215,27 +223,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13074}
+      Script: {instanceID: 12820}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 13384}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13386}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13392}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13584}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13830}
+      Script: {instanceID: 13538}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13588}
+    - Class: 114
+      Script: {instanceID: 13728}
+    - Class: 114
+      Script: {instanceID: 13768}
+    - Class: 114
+      Script: {instanceID: 13838}
+    - Class: 114
+      Script: {instanceID: 13904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -253,6 +269,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -675,6 +693,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 0b134c4cc8a800215d6f200dfe0a080d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: resetpositions
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -861,6 +885,12 @@ ScriptsOnlyBuild:
     className: FollowTarget
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: exitgame
+  - hash:
+      serializedVersion: 2
       Hash: 219ec6059796d8951d2adcd8505d0dc2
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -895,6 +925,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: resetgame
+  - hash:
+      serializedVersion: 2
+      Hash: 18adc621128e62bd7470af4c72081642
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: openoptions
   - hash:
       serializedVersion: 2
       Hash: a2612813f45d0ced02c3e4bc9dbea8b4
@@ -1008,5 +1050,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GameIntro.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/thoma/OneDrive/Documents/Unity Projects/Soccer Legends/Soccer
+  playerPath: C:/Users/thoma/OneDrive/Documents/Unity Projects/Soccer Legends 2021/Soccer
     Game.exe
