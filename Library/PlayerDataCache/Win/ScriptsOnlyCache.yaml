@@ -867,7 +867,7 @@ ScriptsOnlyBuild:
     className: TouchPad
   - hash:
       serializedVersion: 2
-      Hash: 1d2be31f4a525b942ac23bc5f66e6679
+      Hash: 6718955ef6124147f8911153c80bc4d8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: cubemovement
